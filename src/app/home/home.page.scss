@@ -2,5 +2,15 @@
 
 /* Opción 1: Color sólido */
 ion-content {
-  --background: #ffffff; /* Cambia este color al que prefieras */
+  --background: #050505;
+}
+
+ion-menu {
+  --ion-background-color:black;
+  --ion-color-base:white;
+}
+
+ion-menu ion-title,
+ion-menu ion-item {
+  color: white;
 }
