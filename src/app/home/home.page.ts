@@ -10,6 +10,7 @@ export class HomePage {
   menu = '-- MENU --';
   saludo = 'Hola nombreUser';
   msg = 'Bienvenido a TeLlevoApp';
+  content = 'Esta es la página de inicio de TeLlevoApp';
 
   constructor(private router: Router) {}
 

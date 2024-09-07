@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuController } from '@ionic/angular';
 
 @Component({
   selector: 'app-root',
@@ -10,5 +11,10 @@ export class AppComponent {
     { title: 'Home', url: '/home', icon: 'home' },
     { title: 'Login', url: '/login', icon: 'log-in' },
   ];
-  constructor() {}
+  
+  constructor(private menu: MenuController) {}
+
+  enableMenu() {
+    this.menu.enable(true, 'main');
+  }
 }
